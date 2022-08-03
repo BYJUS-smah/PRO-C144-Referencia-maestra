@@ -9,7 +9,7 @@ output_file = cv2.VideoWriter('output.avi', fourcc, 20.0, (640, 480))
 #Iniciar la cámara web.
 cap = cv2.VideoCapture(0)
 
-#Permitir a la cámara web iniciar. haciendo al código "dormir" o esperar por 2 segundos.
+#Permitir a la cámara web iniciar, haciendo al código "dormir" o esperar por 2 segundos.
 time.sleep(2)
 bg = 0
 
